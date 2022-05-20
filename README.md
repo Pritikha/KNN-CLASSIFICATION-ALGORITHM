@@ -170,6 +170,7 @@ num_neighbors = 5
 scores = evaluate_algorithm(dataset, k_nearest_neighbors, n_folds, num_neighbors)
 print('Scores: %s' % scores)
 print('Mean Accuracy: %.3f%%' % (sum(scores)/float(len(scores))))
+
 ```
 
 
